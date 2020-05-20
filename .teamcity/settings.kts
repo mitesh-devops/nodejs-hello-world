@@ -74,4 +74,5 @@ object BuildTest : BuildType({
             branchFilter = ""
         }
     }
+ }
 })
