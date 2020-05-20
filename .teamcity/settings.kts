@@ -1,5 +1,4 @@
 import jetbrains.buildServer.configs.kotlin.v2019_2.*
-import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.vcs
 
 /*
 The settings script is an entry point for defining a TeamCity
@@ -26,31 +25,4 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 version = "2019.2"
 
 project {
-
-    buildType(Build)
 }
-
-object Build : BuildType({
-    name = "Build"
-
-    vcs {
-        root(DslContext.settingsRoot)
-    }
-    
-    steps {
-step {
-    name = "NPM install"
-    type = "jonnyzzz.npm"
-    param("npm_commands", "install")
-}
-
-    }
-
-    triggers {
-         vcs {
-    branchFilter = ""
-    perCheckinTriggering = true
-    enableQueueOptimization = false
-}
-    }
-})

@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <name>KotlinHelloWorldTest Config DSL Script</name>
-  <groupId>KotlinHelloWorldTest</groupId>
-  <artifactId>KotlinHelloWorldTest_dsl</artifactId>
+  <name>MiteshDsl Config DSL Script</name>
+  <groupId>MiteshDsl</groupId>
+  <artifactId>MiteshDsl_dsl</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <parent>
