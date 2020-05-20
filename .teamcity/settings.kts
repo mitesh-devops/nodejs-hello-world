@@ -336,7 +336,7 @@ object Develop : GitVcsRoot({
 })
 
 object HttpsGithubComMiteshDevopsExpressAppTestingDemoGitRefsHeadsMaster : GitVcsRoot({
-    name = "https://github.com/mitesh-devops/express-app-testing-demo.git#refs/heads/master"
+    name = "https://github.com/mitesh-devops/express-app-testing-demo.git#refs/heads/develop"
     url = "https://github.com/mitesh-devops/express-app-testing-demo.git"
     authMethod = password {
         userName = "mitesh-devops"
