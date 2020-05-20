@@ -36,6 +36,15 @@ object Build : BuildType({
     vcs {
         root(DslContext.settingsRoot)
     }
+    
+    steps {
+step {
+    name = "NPM install"
+    type = "jonnyzzz.npm"
+    param("npm_commands", "install")
+}
+
+    }
 
     triggers {
         vcs {
