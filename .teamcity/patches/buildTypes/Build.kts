@@ -15,10 +15,6 @@ changeBuildType(RelativeId("Build")) {
     }
     name = "build"
 
-    vcs {
-        remove(DslContext.settingsRoot.id!!)
-    }
-
     expectSteps {
         step {
             name = "NPM install"
