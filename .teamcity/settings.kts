@@ -47,7 +47,10 @@ step {
     }
 
     triggers {
-        vcs {
-        }
+         vcs {
+    branchFilter = ""
+    perCheckinTriggering = true
+    enableQueueOptimization = false
+}
     }
 })
