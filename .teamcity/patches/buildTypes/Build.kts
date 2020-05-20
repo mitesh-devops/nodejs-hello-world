@@ -17,8 +17,8 @@ changeBuildType(RelativeId("Build")) {
             }
         }
         trigger1.apply {
+            quietPeriodMode = VcsTrigger.QuietPeriodMode.USE_DEFAULT
             branchFilter = ""
-            perCheckinTriggering = true
             enableQueueOptimization = false
         }
     }
