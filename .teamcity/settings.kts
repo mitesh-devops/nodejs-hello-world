@@ -261,7 +261,7 @@ object ExpressApp : BuildType({
         script {
             name = "testing"
             scriptContent = """
-                npm install cucumber-teamcity-formatter --save-dev
+                npm install cucumber-teamcity-formatter --save
                 ./node_modules/.bin/cucumber-js --format node_modules/cucumber-teamcity-formatter
             """.trimIndent()
         }
