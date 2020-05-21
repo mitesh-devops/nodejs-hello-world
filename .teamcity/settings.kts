@@ -328,7 +328,7 @@ object Cucumber : GitVcsRoot({
 object Develop : GitVcsRoot({
     name = "Develop"
     url = "https://gitlab.com/Mitesh_ITadcorner/node-unit-tests.git"
-    branch = "refs/heads/develop"
+    branch = "refs/heads/master"
     authMethod = password {
         userName = "Mitesh_ITadcorner"
         password = "credentialsJSON:1f51d04b-2d22-407e-bce6-d398a683ae91"
